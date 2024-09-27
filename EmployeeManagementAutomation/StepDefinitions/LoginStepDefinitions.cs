@@ -34,7 +34,14 @@ namespace EmployeeManagementAutomation.StepDefinitions
         [Then(@"I should get access to dashboard page with '(.*)'")]
         public void ThenIShouldGetAccessToDashboardPageWith(string message)
         {
-           Console.WriteLine("Then"+message);
+           Console.WriteLine("Then "+message);
+        }
+
+       
+        [Then(@"I should not get access to dashboard with error message as '(.*)'")]
+        public void ThenIShouldNotGetAccessToDashboardWithErrorMessageAs(string errormsg)
+        {
+            Console.WriteLine("Then " + errormsg);
         }
     }
 }
