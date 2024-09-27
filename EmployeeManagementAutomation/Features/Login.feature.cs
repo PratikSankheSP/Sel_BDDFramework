@@ -35,9 +35,9 @@ namespace EmployeeManagementAutomation.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "Login", "Need to lgin in system to manage employees records\r\n\r\nIn order to Manage Employee" +
-                    " Records\r\nAs a HR\r\nI would like to access Orange HRM\r\n\r\nA short summary of the f" +
-                    "eature", ProgrammingLanguage.CSharp, featureTags);
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "Login", "Need to login in system to manage employees records\r\n\r\nIn order to Manage Employe" +
+                    "e Records\r\nAs a HR\r\nI would like to access Orange HRM\r\n\r\nA short summary of the " +
+                    "feature", ProgrammingLanguage.CSharp, featureTags);
             testRunner.OnFeatureStart(featureInfo);
         }
         
